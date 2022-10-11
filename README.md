@@ -37,5 +37,6 @@
 
 # Some Very important Links for bash, bash pitfalls, makefile tutorial
 ### Shell Scripting Tutorial -  https://www.shellscript.sh/hints.html
+### Bash Pit falls - https://mywiki.wooledge.org/BashPitfalls
 ### Make file tutorial - https://makefiletutorial.com/
 ### keep using this reference to update another information
