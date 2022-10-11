@@ -15,11 +15,13 @@
     - Bash (Bourne Again Shell) - most popular command line interfaces in UNIX.
         - Bash is a shell equiavalent to Powershell but in UNIX.
         - it is open source, command-line editing available and others like key-binding, command history etc.
+        - **This is important - if you download git in windows, it contains bash in it.**
+![Bash in Git](images/second.png)
 
 
 ![Differences](images/first.png)
 
-2. Make files
+1. Make files
    - Now coming to make files.
    - Beautiful make file tutorial.
    - https://makefiletutorial.com/#why-do-makefiles-exist
