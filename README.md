@@ -1,5 +1,6 @@
 # Some information when working with make and make file.
-![Minion](https://octodex.github.com/images/minion.png)
+
+
 
 1. There are different version of command line interpreter.
     - cmd.exe = command-line interpreter (CLI) for Microsoft Windows
@@ -32,3 +33,9 @@
    - Msys make is better than MinGW as the former will give access to commands which are portable in UNIX systems as well.
    - For example - "rm" is present in msys make but not in mingw make, and some others like "ls" which is list directories present in msys but not in mingw.
    - So use msys make instead of mingw make. 
+
+
+# Some Very important Links for bash, bash pitfalls, makefile tutorial
+### Shell Scripting Tutorial -  https://www.shellscript.sh/hints.html
+### Make file tutorial - https://makefiletutorial.com/
+### keep using this reference to update another information
