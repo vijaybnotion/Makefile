@@ -19,13 +19,14 @@
 
 ![Differences](images/first.png)
 
-- Now coming to make files.
-- Beautiful make file tutorial.
-- https://makefiletutorial.com/#why-do-makefiles-exist
+2. Make files
+   - Now coming to make files.
+   - Beautiful make file tutorial.
+   - https://makefiletutorial.com/#why-do-makefiles-exist
 
-In Windows, there are two kinds of make software.
-- First one is provided by MinGW - make
-- Another one is provided by Msys - make
-- Msys make is better than MinGW as the former will give access to commands which are portable in UNIX systems as well.
-- For example - "rm" is present in msys make but not in mingw make, and some others like "ls" which is list directories present in msys but not in mingw.
-- So use msys make instead of mingw make. 
+   In Windows, there are two kinds of make software.
+   - First one is provided by MinGW - make
+   - Another one is provided by Msys - make
+   - Msys make is better than MinGW as the former will give access to commands which are portable in UNIX systems as well.
+   - For example - "rm" is present in msys make but not in mingw make, and some others like "ls" which is list directories present in msys but not in mingw.
+   - So use msys make instead of mingw make. 
