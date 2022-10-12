@@ -120,3 +120,56 @@
 
 # clean:
 # 	rm -f blah*
+
+#Chapter 17
+# Static Pattern rules
+# objects = foo.o bar.o all.o
+# all: $(objects)
+# 	gcc -o $@ $^
+# 	rm -rf $(objects) foo.c bar.c
+
+# $(objects): %.o: %.c
+
+# all.c:
+# 	echo -e "#include <stdio.h>\nint main()\n{\nprintf(\"Vijay is great\");\n}" > all.c
+
+# %.c:
+# 	touch $@
+
+# clean:
+# 	rm -rf *.c *.o all
+
+
+#Chapter 18
+# make_var = I am a make variable
+# all:
+# # Same as running "sh_var='I am a shell variable'; echo $sh_var" in the shell
+# 	sh_var='I am a shell variable'; echo $$sh_var
+
+# # Same as running "echo I am a amke variable" in the shell
+# 	echo $(make_var)
+
+#Chapter 19
+# later_variable = later
+
+# # Recursive variable. This will print "later" below
+# one = one ${later_variable}
+
+# # Simply expanded variable. This will not print "later" below
+# two := two ${later_variable}
+
+# # Simply expanded variable. This will not print "later" below
+# two_another := two ${dummy}
+
+# dummy = this wont be printed
+
+
+# all: 
+# 	echo $(one)
+# 	echo $(two)
+# 	echo $(two_another)
+
+#Chapter 20
+bar := ${subst not, totally, "I am not superman"}
+all: 
+	@echo $(bar)
