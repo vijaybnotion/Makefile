@@ -1,6 +1,9 @@
 # Some information when working with make and make file.
 
-
+## References
+---
+![gnu make offcial](https://www.gnu.org/software/make/manual/make.html)
+![Mit make documentation, very old](https://web.mit.edu/gnu/doc/html/make_toc.html)
 
 1. There are different version of command line interpreter.
     - cmd.exe = command-line interpreter (CLI) for Microsoft Windows
