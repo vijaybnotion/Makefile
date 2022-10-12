@@ -4,7 +4,7 @@
 
 - https://www.gnu.org/software/make/manual/make.html (Official)
 - https://web.mit.edu/gnu/doc/html/make_toc.html (Very old)
-- https://makefiletutorial.com/ (also a good one, check the books section)
+- https://makefiletutorial.com/ (also a good one, check the books section, there is a pdf file of the same html document)
 
 1. There are different version of command line interpreter.
     - cmd.exe = command-line interpreter (CLI) for Microsoft Windows
